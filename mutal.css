@@ -1,0 +1,121 @@
+/*------------------------------------generelt----------------------------------------*/
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+}
+body {
+  scroll-behavior: smooth;
+}
+/*------------------------------------generelt slut ----------------------------------------*/
+/*------------------------------------Logo ----------------------------------------*/
+.logo {
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #c7b2a2;
+  text-decoration: none;
+}
+/*------------------------------------Logo slut ----------------------------------------*/
+/*------------------------------------Menu----------------------------------------*/
+/* header */
+.banner {
+  background: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.banner ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: #c7b2a2;
+}
+nav ul {
+    place-content: end;
+    gap: 20px;
+}
+/* burgermenu */
+.toggle-btn {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #c7b2a2;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #c7b2a2;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+
+  nav ul {
+    gap: 20px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #c7b2a2;
+  }
+  .logobox {
+    display: flex;
+    align-items: center;
+  }
+}
+/*------------------------------------Menu slut----------------------------------------*/
+/*------------------------------------Footer----------------------------------------*/
+.footer_mail a{
+ text-decoration: none;
+ color: #c7b2a2;
+}
+.footer_mail{
+ grid-row: 2/3;
+
+}
+.made_by{
+grid-row: 1/2;
+}
+footer{
+  border-top:2px solid#c7b2a2 ;
+ /* display: grid;
+  grid-template-rows: 1fr 1fr;
+  place-content: center;*/
+ height: 5px;
+  
+}
+.footer_info{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+footer p{
+  color: #c7b2a2;
+  
+}
+
+/*------------------------------------Footer slut----------------------------------------*/
+/*------------------------------------Overskrifter----------------------------------------*/
+/*------------------------------------Overskrifter slut----------------------------------------*/
+/*------------------------------------Brødtekst----------------------------------------*/
+/*------------------------------------Brødtekst slut----------------------------------------*/

@@ -1,0 +1,83 @@
+
+/*------------------------h1------------------*/
+.name {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: clamp(3rem, 7vw, 14rem);
+  text-align: center;
+  color: white;
+  text-shadow: 2px 3px 8px #ced0d3;
+  padding-top: 5%;
+}
+/*-----------h1 og mapper------------*/
+@media (min-width: 550px) {
+  /*.name {
+    font-size: 4rem;
+  }*/
+ .portfolio_mappe,
+.om_mig_mappe {
+  width: 100%;
+  height: auto;
+  padding-top: 0;
+} 
+
+}
+/*@media (min-width: 700px) {
+  .name {
+    font-size: 5rem;
+  }
+}
+@media (min-width: 1000px) {
+  .name {
+    font-size: 7rem;
+  }
+}
+@media (min-width: 1400px) {
+  .name {
+    font-size: 10rem;
+  }
+}*/
+/*---------------------grid for forside-------------------*/
+#section_front {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 25px 1fr 1fr 0.5fr ;
+  height: 100vh;
+  
+ 
+}
+/*---------------- mapper -----------------------------*/
+.forside_mappe {
+  aspect-ratio: 800/600;
+  width: 70%;
+  height: 70%;
+
+}
+.skrifter{
+grid-row: 2;
+}
+.mapper_front {
+  display: flex;
+  grid-row: 3;
+}
+.mapper_front a {
+  display: flex;
+  justify-content: center;
+}
+
+.port_overskrift {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 3px 8px #ced0d3;
+}
+.text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 3px 8px #ced0d3;
+}
