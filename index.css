@@ -5,7 +5,7 @@
   font-size: clamp(2.5rem, 7vw, 10rem);
   text-align: center;
   color: white;
-  text-shadow: 2px 3px 8px #ced0d3;
+  text-shadow: 2px 3px 8px #9e9a92;
   padding-top: 5%;
 }
 /*-----------h1 og mapper------------*/
@@ -45,19 +45,14 @@
   
 
 }
-.skrifter{
-display: grid;
-align-self: center;
-}
+
 .mapper_front {
-  display: grid;
-width: 100%
-grid-auto-columns: 1fr 1fr;
+display: flex;
+width: 100%;
 justify-content: center;
-align-content:baseline;
-align-self: start;
 height: 40vh;
 }
+
 .a_1{
   grid-column: 1;
 display: grid;
@@ -75,18 +70,22 @@ inline-size: clamp(210px, 50vw, 500px);
   width: 50%;
 height: auto;
 }
-
+/*-----------------skrifter*/
+.skrifter{
+display: grid;
+align-self: center;
+}
 .port_overskrift {
   font-family: 'Be Vietnam Pro', sans-serif;
   font-size: clamp(2rem, 4vw, 4rem);
   text-align: center;
   color: white;
-  text-shadow: 2px 3px 8px #ced0d3;
+  text-shadow: 2px 3px 8px #9e9a92;
 }
 .text {
   font-family: 'Be Vietnam Pro', sans-serif;
   font-size: clamp(1.5rem, 2vw, 1.8rem);
   text-align: center;
   color: white;
-  text-shadow: 2px 3px 8px #ced0d3;
+  text-shadow: 2px 3px 8px #9e9a92;
 }

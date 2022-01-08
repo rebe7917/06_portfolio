@@ -10,6 +10,8 @@ img {
 body {
   scroll-behavior: smooth;
 }
+
+
 /*------------------------------------generelt slut ----------------------------------------*/
 /*------------------------------------Logo ----------------------------------------*/
 .logo {
@@ -90,37 +92,81 @@ nav ul {
  text-decoration: none;
  color: #c7b2a2;
 }
-.footer_mail{
- grid-row: 2/3;
 
-}
-.made_by{
-grid-row: 1/2;
-}
 footer{
   width: 100%;
   border-top:2px solid#c7b2a2 ;
- /* display: grid;
-  grid-template-rows: 1fr 1fr;
-  place-content: center;*/
  height: 5px;
   
 }
 .footer_info{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  /*grid-template-columns: 1fr 1fr;*/
+  gap: 40px;
+  justify-content: center;
+  padding-top: 10px ;
+  padding-bottom: 10px;
+}
+@media (min-width: 500px) {
+  .footer_info{
+     justify-content:space-evenly;
+  }
 }
 footer p{
   color: #c7b2a2;
   
 }
+footer li{
+  list-style: none;
+}
 
 /*------------------------------------Footer slut----------------------------------------*/
 /*------------------------------------Overskrifter----------------------------------------*/
-h1,
+/*h1,
 h2,
 h3{
   font-family: 'Be Vietnam Pro', sans-serif;
+}
+h2,
+h3{
+  color:#ac927e;
+}
+h2{
+font-size: clamp(1.5rem, 5vw, 2rem);
+}
+h3{
+font-size: clamp(1.1rem, 5vw, 1.5rem)
+}*/
+
+h1{
+  font-family: font-family: 'Abril Fatface', cursive;
+  font-size: clamp(3rem, 7vw, 10rem);
+  text-align: center;
+  color: white;
+  text-shadow: 2px 3px 8px #9e9a92;
+}
+h2,
+h3{
+color: #a19083;
+
+}
+h2{
+  font-size: clamp(2rem, 7vw, 2.5rem);
+  text-align: center;
+}
+h3{
+  font-size: clamp(2rem, 3vw, 2rem);
+}
+p{
+  font-family: 'Noto Serif JP', serif;
+   font-size: clamp(1.2rem, 3vw, 1.5rem);
+ 
+}
+footer a{
+  font-size: 1.5rem;
+}
+header nav a{
+font-size: 1.5rem;
 }
 /*------------------------------------Overskrifter slut----------------------------------------*/
 /*------------------------------------Brødtekst----------------------------------------*/
