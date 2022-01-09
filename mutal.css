@@ -10,7 +10,14 @@ img {
 body {
   scroll-behavior: smooth;
 }
-
+main{
+  margin: 15px;
+}
+@media (min-width: 600px){
+  main{
+  margin: 50px;
+}
+}
 
 /*------------------------------------generelt slut ----------------------------------------*/
 /*------------------------------------Logo ----------------------------------------*/
@@ -94,30 +101,43 @@ nav ul {
 }
 
 footer{
-  width: 100%;
+  
   border-top:2px solid#c7b2a2 ;
- height: 5px;
+  
   
 }
 .footer_info{
   display: flex;
   /*grid-template-columns: 1fr 1fr;*/
-  gap: 40px;
+  gap: 60px;
   justify-content: center;
-  padding-top: 10px ;
-  padding-bottom: 10px;
+  padding-top: 20px ;
+  padding-bottom: 5px;
 }
 @media (min-width: 500px) {
   .footer_info{
      justify-content:space-evenly;
   }
+  header nav a{
+font-size: 1.5rem;
+}
+footer li{
+  
+  font-size: 1.5rem;
+  
+}
 }
 footer p{
   color: #c7b2a2;
+  font-size: 1rem;
+  
   
 }
 footer li{
   list-style: none;
+  color: #c7b2a2;
+  font-size: 1rem;
+  
 }
 
 /*------------------------------------Footer slut----------------------------------------*/
@@ -138,13 +158,15 @@ h3{
 font-size: clamp(1.1rem, 5vw, 1.5rem)
 }*/
 
+
 h1{
-  font-family: font-family: 'Abril Fatface', cursive;
-  font-size: clamp(3rem, 7vw, 10rem);
+  font-family: 'Abril Fatface', cursive;
+  font-size: clamp(3.2rem, 5vw, 8rem);
   text-align: center;
   color: white;
   text-shadow: 2px 3px 8px #9e9a92;
 }
+
 h2,
 h3{
 color: #a19083;
@@ -155,18 +177,19 @@ h2{
   text-align: center;
 }
 h3{
-  font-size: clamp(2rem, 3vw, 2rem);
+  font-size: clamp(1.5rem, 3vw, 2rem);
 }
 p{
   font-family: 'Noto Serif JP', serif;
-   font-size: clamp(1.2rem, 3vw, 1.5rem);
+   font-size: clamp(1rem, 3vw, 1.1rem);
+   text-align: justify;
  
 }
 footer a{
   font-size: 1.5rem;
 }
 header nav a{
-font-size: 1.5rem;
+font-size: 1rem;
 }
 /*------------------------------------Overskrifter slut----------------------------------------*/
 /*------------------------------------Brødtekst----------------------------------------*/

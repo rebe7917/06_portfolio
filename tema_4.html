@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="da">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Grundlæggende Animation</title>
-    <link rel="stylesheet" href="mutal.css">
-    <link rel="stylesheet" href="tema4.css">
-</head>
-<body>
-     <header class="banner">
+    <link rel="stylesheet" href="mutal.css" />
+    <link rel="stylesheet" href="tema4.css" />
+  </head>
+  <body>
+    <header class="banner">
       <div class="logobox">
         <a class="logo" href="index.html">RKMS</a>
       </div>
@@ -19,14 +31,176 @@
 
       <nav>
         <ul>
-            <li><a href="index.html">Forside</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="om_mig.html">Om mig</a></li>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="om_mig.html">Om mig</a></li>
         </ul>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+      <h1>Grundlæggende animation</h1>
+      <br />
+      <section id="section_1">
+        <div class="spillet">
+          <a href="https://rkms.dk/kea/04_animation/spil/index.html">Spillet</a>
+        </div>
+      </section>
+      <br />
+      <section id="section_2">
+        <div class="grid_container">
+               <div class="javas">
+            <h3>Javascript</h3>
+            <p>
+              I tema 4 blev vi introduceret til JavaScript. JavaScript er et
+              kodesprog der bruges til at fremstille interaktive
+              brugergrænseflader der skal engagere og motiver brugeren. I denne
+              opgave skulle vi anvende JavaScript sammen med CSS-animationer til
+              at skabe et lille spil. Det skulle være et spil hvor man kan
+              klikke på gode eller dårlige ting (spilfigurer), og derefter så
+              miste liv eller få nogle point. I HTML opbyggede vi strukturen til
+              vores spil, men uden indhold. Vi implementerede i stedet vores
+              spil tegninger som baggrundsbilleder i CSS. I CSS lavede vi vores
+              animationer, ved hjælp af keyframes. Vi anvendte et
+              statemachine-diagram til at hjælpe os med at holde overblik under
+              kodningen.
+            </p>
+            <br />
+            <p>
+              Javascript bruger vi til at manipulere med DOM’en. Det vi brugte
+              det til var at vide når siden var loadet, fjerne og tilføje
+              classes, gøre elementer klikbare og undersøge om animationerne var
+              færdige. For at vælge en CSS-selector brugte vi
+              <b>”document.queryselector(”#selector”)”.</b>
+              Derefter fortalt vi JavaScript om vi ville tilføje eller fjerne en
+              class ved at tilføje følgende:
+              <b>”.classList.add(”class_name”)"</b> eller
+              <b> ”.classList.remove(”class_name”);"</b> til sætningen.
+            </p>
+            <br />
+            <p>
+              For at det er muligt at klikke på vores spil-elementer, skulle vi
+              tilføje en <b>"".addEventListener(”click”, functionName);"</b> og
+              oprette en funktion, med samme navn som vi brugte i
+              EventListeneren. Det er denne function vi kalder på når vi klikker
+              på elementet. F.eks. at der skal starte en animation på vores
+              spilfigur efter vi har klikket på den.
+            </p>
+          </div>
+          <br />
+          <div class="spilstart">
+            <img src="fotos/startskaerm.jpg" alt="spillets startskærm" />
+          </div>
+        
+        
+          <br />
+          <div class="design_p">
+            <h3>Designprocess</h3>
+            <p>
+              For at få ide-genereringsprocessen sat i gang lavede vi en lille
+              øvelse, hvor vi skulle vælge tre tilfældige ord fra 3 lister og
+              efterfølgende beskrive det som et spil. Her fandt jeg på ideen til
+              mit eget spil. Jeg begyndte derefter at researche forskellige
+              tegnestile, for at finde inspiration til designet. Vi lavede en
+              analyse og beskrivelse af stilen, som vi tog udgangspunkt i da vi
+              gik i gang med at tegne spillet.
+            </p>
+            <br />
+            <p>
+              Vi lavede også et aktivitetsdiagram for spillet, som beskriver en
+              aktivitet bestående af detaljerede handlinger og beslutninger. Vi
+              blev også præsenteret for Adobe Illustrator i tema 4, som vi
+              brugte til at tegne spillet i. Vi brugte Illustrator da programmet
+              anvender vektor-baseret grafik. På denne måde kan vi skalere vores
+              spilelementer uden at kvaliteten forvrænges, modsat pixelgrafik.
+            </p>
+          </div>
+          <div class="skabeloner_i">
+            <img src="fotos/skabeloner.png" alt="designskabeloner" />
+          </div>
+          <br />
+     
+      </section>
+      <br />
+      <section id="section_3">
+        <h2>Opgaver, dokumentation og øvelser</h2>
+        <br>
+        <div class="grid_container">
+          <div class="doku_link1">
+            <a
+              href="https://rkms.dk/kea/04_animation/ide_rebeccasch%C3%BCtze.pdf"
+              >04.01.01</a
+            >
+          </div>
+
+          <div class="doku_link2">
+            <a
+              href="https://rkms.dk/kea/04_animation/RebeccaSch%C3%BCtze_stiludgangspunkt.pdf%20.pdf"
+              >04.01.02</a
+            >
+          </div>
+
+          <div class="doku_link3">
+            <a
+              href="https://rkms.dk/kea/04_animation/Rebeccasch%C3%BCtze_skitser_figur_baggrund_design.pdf%20.pdf"
+              >04.01.03</a
+            >
+          </div>
+          <div class="doku_link4">
+            <a
+              href="https://rkms.dk/kea/04_animation/RebeccaSch%C3%BCtze_rentegning_figurdesign.pdf"
+              >04.01.04</a
+            >
+          </div>
+          <div class="doku_link5">
+            <a href="https://rkms.dk/kea/04_animation/Aktivitetsdiagram.pdf"
+              >04.01.05</a
+            >
+          </div>
+          <div class="doku_link6">
+            <a href="https://rkms.dk/kea/04_animation/rentegning2.pdf"
+              >04.01.06</a
+            >
+          </div>
+          <div class="doku_link7">
+            <a href="https://rkms.dk/kea/04_animation/16animations/index.html"
+              >04.02.02</a
+            >
+          </div>
+          <div class="doku_link8">
+            <a href=""></a>
+          </div>
+          <div class="doku_link9">
+            <a
+              href="sftp://rkms.dk@ssh.rkms.dk/customers/7/e/6/rkms.dk/httpd.www/kea/04_animation/coinclicker_sounds"
+              >Lyd øvelse</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_info">
+        <div>
+          <p class="made_by"><b> Design af:</b></p>
+          <ul>
+            <li>Rebecca Schütze</li>
+          </ul>
+        </div>
+        <div class="footer_mail">
+          <p><b> Mail:</b></p>
+          <ul>
+            <li>
+              <a href="mailto:rebe7917@stud.kea.dk">Rebe7917@stud.kea.dk</a>
+            </li>
+            <li>
+              <a href="mailto:rebecca.katarina@gmail.com"
+                >Rebecca.katarina@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <script src="javascript.js"></script>
-</body>
+  </body>
 </html>
