@@ -1,1 +1,44 @@
+#videoer {
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding-bottom: 5%;
+  justify-items: center;
+ 
+  
+}
+video{
+   width: 100%;
+  height: auto;
+}
+@media (min-width: 1000px) {
+#section_2 .grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    text-align: justify;
 
+    justify-items: center;
+    border: #c7b2a2 2px solid;
+    padding: 10px;
+  }
+}
+video{
+   width: 80%;
+  height: auto;
+  padding-top: 40px;
+}
+.pilot{
+    padding-left: 60px;
+}
+
+.pilot_p{
+    display: flex;
+  justify-content: center;
+}
+.pilot_p a{
+background-color: #c7b2a2;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: clamp(1.5rem, 3vw, 1.5rem);
+}
