@@ -142,21 +142,7 @@ footer li{
 
 /*------------------------------------Footer slut----------------------------------------*/
 /*------------------------------------Overskrifter----------------------------------------*/
-/*h1,
-h2,
-h3{
-  font-family: 'Be Vietnam Pro', sans-serif;
-}
-h2,
-h3{
-  color:#ac927e;
-}
-h2{
-font-size: clamp(1.5rem, 5vw, 2rem);
-}
-h3{
-font-size: clamp(1.1rem, 5vw, 1.5rem)
-}*/
+
 
 
 h1{
@@ -179,9 +165,10 @@ h2{
 h3{
   font-size: clamp(1.5rem, 3vw, 2rem);
 }
+
 p{
   font-family: 'Noto Serif JP', serif;
-   font-size: clamp(1rem, 3vw, 1.1rem);
+   font-size: 1rem/*lamp(1rem, 2vw, 1rem*/;
    text-align: justify;
  
 }
