@@ -14,23 +14,24 @@ video{
 #section_2 .grid_container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    gap: 30px;
     text-align: justify;
 
     justify-items: center;
     border: #c7b2a2 2px solid;
     padding: 10px;
   }
-}
+
 video{
-   width: 80%;
+   padding-right: 60px;
   height: auto;
   padding-top: 40px;
 }
 .pilot{
     padding-left: 60px;
 }
-
+}
+/*--------link til pilot projekt-------------*/
 .pilot_p{
     display: flex;
   justify-content: center;
@@ -42,3 +43,5 @@ background-color: #c7b2a2;
   color: white;
   font-size: clamp(1.5rem, 3vw, 1.5rem);
 }
+/*-------------------------------------------*/
+
