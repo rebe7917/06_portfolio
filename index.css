@@ -2,7 +2,7 @@
 main{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 2fr 1fr 1fr ;
+  grid-template-rows: 2fr 0.7fr 1fr ;
 }
 .section_front{
   grid-row: 1/2;
@@ -14,7 +14,7 @@ main{
 /*skrifter*/
 /*------------------------h1------------------*/
 .name {
-  font-family: font-family: 'Abril Fatface', cursive;
+  font-family:  'Abril Fatface', cursive;
   font-size: clamp(5rem, 7vw, 10rem);
   text-align: center;
   color: white;
@@ -27,7 +27,7 @@ main{
    row-gap: 5px;
 }
 .port_overskrift {
-  font-family: font-family: 'Abril Fatface', cursive;
+  font-family: 'Abril Fatface', cursive;
   font-size: clamp(3rem, 5vw, 4.5rem);
   text-align: center;
   color: white;
@@ -35,7 +35,7 @@ main{
 }
 
 .text {
-  font-family: font-family: 'Abril Fatface', cursive;
+  font-family: 'Abril Fatface', cursive;
   font-size: clamp(1.5rem, 2vw, 1.8rem);
   text-align: center;
   color: white;
@@ -58,9 +58,12 @@ font-size: 1.5rem;
 
 .boks_1,
 .boks_2{
- background-color:#c7b2a2 ;
+ background-color:#5E544C ;
 padding:10px;
 text-decoration: none;
 width: 200px;
 text-align: center;
+}
+#bokse a:hover{
+  color: black;
 }

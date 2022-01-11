@@ -3,14 +3,14 @@
   justify-content: center;
 }
 .site_v2 a {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
   text-decoration: none;
   color: white;
   font-size: clamp(1.5rem, 3vw, 1.5rem);
 }
-a:hover {
-  color: black;
+ section a:hover {
+  color: #c7b2a2;
 }
 @media (min-width: 1000px) {
   #section_2 .grid_container {
@@ -20,14 +20,14 @@ a:hover {
     text-align: justify;
     gap: 20px;
     justify-items: center;
-    border: #c7b2a2 2px solid;
-    padding: 10px;
+   border: #7E7972 5px solid;
+    padding: 40px;
   }
 
   .prototype {
     grid-column: 1/2;
     grid-row: 1/2;
-    padding-left: 60px;
+    
   }
   .prot_i {
     grid-column: 2/3;
@@ -38,7 +38,7 @@ a:hover {
   .survey {
     grid-column: 1/2;
     grid-row: 2/3;
-    padding-left: 60px;
+   
   }
   .survey_i {
     grid-column: 2/3;
@@ -49,7 +49,7 @@ a:hover {
   .test {
     grid-column: 1/2;
     grid-row: 3/4;
-    padding-left: 60px;
+    
   }
   .test_i {
     grid-column: 2/3;
@@ -62,21 +62,17 @@ a:hover {
   #section_pitch .grid_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-   
     text-align: justify;
     gap: 20px;
     justify-items: center;
-    border: #c7b2a2 2px solid;
-    padding: 10px;
+    border: #7E7972 5px solid;
+    padding: 40px;
   }
   .pitch {
     grid-column: 1/2;
-    
-    padding-left: 60px;
   }
   .pitch_i {
     grid-column: 2/3;
-    
     width: 80%;
     padding-top: 10px;
   }
@@ -84,22 +80,21 @@ a:hover {
 .deck{
   display: flex;
   justify-content: center;
-
-  
 }
+/*------pitch knap------------*/
 .deck a{
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
   text-decoration: none;
   color: white;
   font-size: clamp(1.5rem, 3vw, 1.5rem);
 }
 .deck a:hover{
-  color: black;
+  color:#c7b2a2;
 }
 /*------------------ opgave links----------------*/
 #section_3 .grid_container {
-  display: flex;
+    display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-items: center;
@@ -110,18 +105,15 @@ a:hover {
   color: white;
   font-size: 1.3rem;
 }
-#section_3 a:hover{
-color: black;
-}
 .doku_link1 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
   text-decoration: none;
   width: 180px;
   text-align: center;
 }
 .doku_link2 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
   text-decoration: none;
   width: 180px;
@@ -129,7 +121,7 @@ color: black;
 }
 
 .doku_link3 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
   text-decoration: none;
   width: 180px;
@@ -137,7 +129,7 @@ color: black;
 }
 
 .doku_link4 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
   text-decoration: none;
   width: 180px;
@@ -145,7 +137,7 @@ color: black;
 }
 
 .doku_link5 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
   text-decoration: none;
   width: 180px;
@@ -153,7 +145,7 @@ color: black;
 }
 
 .doku_link6 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
   text-decoration: none;
   width: 180px;
@@ -161,7 +153,7 @@ color: black;
 }
 
 .doku_link7 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
   text-decoration: none;
   width: 180px;
@@ -169,7 +161,7 @@ color: black;
 }
 
 .doku_link8 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
   text-decoration: none;
   width: 180px;
@@ -177,7 +169,7 @@ color: black;
 }
 
 .doku_link9 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
   text-decoration: none;
   width: 180px;
@@ -186,103 +178,60 @@ color: black;
 
 @media (min-width: 700px) {
   #section_3 .grid_container {
-    display: grid;
+   display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px;
     justify-items: center;
   }
-  #section_3 a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
-  }
   .doku_link1 {
     grid-column: 1/2;
     grid-row: 1/2;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
   }
   .doku_link2 {
     grid-column: 2/3;
     grid-row: 1/2;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
-    width: 200px;
     text-align: center;
+    width: 200px;
   }
-
   .doku_link3 {
     grid-column: 3/4;
     grid-row: 1/2;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
   }
-
   .doku_link4 {
     grid-column: 1/2;
     grid-row: 2/3;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
   }
-
   .doku_link5 {
     grid-column: 2/3;
     grid-row: 2/3;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
   }
 
   .doku_link6 {
     grid-column: 3/4;
     grid-row: 2/3;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
   }
 
   .doku_link7 {
     grid-column: 1/2;
     grid-row: 3/4;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
   }
 
   .doku_link8 {
     grid-column: 2/3;
     grid-row: 3/4;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
   }
 
   .doku_link9 {
     grid-column: 3/4;
     grid-row: 3/4;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
   }
 }

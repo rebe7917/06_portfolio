@@ -3,14 +3,15 @@
   justify-content: center;
 }
 .site_v2 a {
-  background-color: #c7b2a2;
+  background-color:#5E544C;
+  border-radius: 25px;
   padding: 10px;
   text-decoration: none;
   color: white;
-  font-size: clamp(1.5rem, 3vw, 1.5rem);
+  font-size: clamp(1.1rem, 3vw, 1.5rem);
 }
 a:hover {
-  color: black;
+  color: #c7b2a2;
 }
 
 /*-----------------------section 1---------------------*/
@@ -22,28 +23,22 @@ a:hover {
     text-align: justify;
     gap: 20px;
     justify-items: center;
-    border: #c7b2a2 2px solid;
-    padding: 10px;
+    border: #7E7972 5px solid;
+    padding: 40px;
+    border-radius: 25px ;
   }
   .design_doku {
     padding-top: 40px;
     width: 80%;
     
   }
-  .kode_p,
-  .design_p{
-      padding-left: 60px;
+ 
   }
   .site_v2 {
     display: flex;
     justify-content: center;
   }
-  .site_v2 a {
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
-    color: white;
-  }
+  
 }
 /*-------------------------section 2-------------------*/
 #section_2 .grid_container {
@@ -57,76 +52,79 @@ a:hover {
   text-decoration: none;
   color: white;
   font-size: 1.3rem;
+  
 }
 .doku_link1 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
-  text-decoration: none;
+  border-radius: 25px;
   width: 180px;
   text-align: center;
 }
 .doku_link2 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
-  text-decoration: none;
+  border-radius: 25px;
   width: 180px;
   text-align: center;
 }
 
 .doku_link3 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
-  text-decoration: none;
+ border-radius: 25px;
   width: 180px;
   text-align: center;
 }
 
 .doku_link4 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
-  text-decoration: none;
+border-radius: 25px;
   width: 180px;
   text-align: center;
 }
 
 .doku_link5 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
-  text-decoration: none;
+ border-radius: 25px;
   width: 180px;
   text-align: center;
 }
 
 .doku_link6 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
-  text-decoration: none;
+border-radius: 25px;
   width: 180px;
   text-align: center;
 }
 
 .doku_link7 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
-  text-decoration: none;
+ border-radius: 25px;
   width: 180px;
   text-align: center;
 }
 
 .doku_link8 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
-  text-decoration: none;
+  
   width: 180px;
   text-align: center;
+  border-radius: 25px;
 }
 
 .doku_link9 {
-  background-color: #c7b2a2;
+  background-color: #5E544C;
   padding: 10px;
-  text-decoration: none;
+ 
   width: 180px;
   text-align: center;
+  border-radius: 25px;
 }
 
 @media (min-width: 700px) {
@@ -137,97 +135,63 @@ a:hover {
     gap: 20px;
     justify-items: center;
   }
-  #section_2 a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
-  }
   .doku_link1 {
     grid-column: 1/2;
     grid-row: 1/2;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
+
   }
   .doku_link2 {
     grid-column: 2/3;
     grid-row: 1/2;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
+
   }
 
   .doku_link3 {
     grid-column: 3/4;
     grid-row: 1/2;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
+
   }
 
   .doku_link4 {
     grid-column: 1/2;
     grid-row: 2/3;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
+  
   }
 
   .doku_link5 {
     grid-column: 2/3;
     grid-row: 2/3;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
   }
 
   .doku_link6 {
     grid-column: 3/4;
     grid-row: 2/3;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
+    
   }
 
   .doku_link7 {
     grid-column: 1/2;
     grid-row: 3/4;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
   }
 
   .doku_link8 {
     grid-column: 2/3;
     grid-row: 3/4;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
+    
   }
 
   .doku_link9 {
     grid-column: 3/4;
     grid-row: 3/4;
-    background-color: #c7b2a2;
-    padding: 10px;
-    text-decoration: none;
     width: 200px;
-    text-align: center;
+    
   }
 }

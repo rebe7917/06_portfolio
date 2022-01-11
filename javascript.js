@@ -15,10 +15,10 @@ function toggleMenu() {
   if (menuShown) {
     // hvis nav har klassen "shown", sæt da btn.textContent til "Luk"
     console.log("luk");
-    btn.textContent = "LUK";
+    btn.textContent = "X";
   } else {
     // hvis IKKE nav har klassen "shown", sæt da btn.textContent til "Menu"
-    btn.textContent = "MENU";
+    btn.textContent = "☰";
     console.log("menu");
   }
 }
