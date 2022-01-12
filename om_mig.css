@@ -1,1 +1,60 @@
+li{
+    list-style:none;
+    font-family: 'Frank Ruhl Libre', serif;
+}
+.cv_o{
+text-align: start;
+}
+.cv{
+    justify-items: center;
+}
+ #section_1 .grid_container{
+   display: grid ;
+   grid-template-columns: 1fr;
+    justify-items: center;
+   
+ }
+ .info_mig{
+    
+ }
+ .foto_mig{
 
+     width: 80%;
+     height: auto;
+     
+ }
+ img {
+  border-radius: 25%;
+}
+/*@media (min-width: 800px) {
+     .foto_mig{
+
+     width: 50%;
+     height: auto;
+     
+ }
+}*/
+@media (min-width: 1000px) {
+ #section_1 .grid_container{
+     display:grid;
+     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: end;
+    border: #7E7972 5px solid;
+    padding: 40px;
+    border-radius: 25px ;
+    gap: 80px;
+   
+    
+ }
+ .foto_mig{
+     padding-top: 50;
+ 
+ }
+ .info_mig{
+    
+ }
+}
+.foto_mig img {
+  width: clamp(200px, 100%, 350px);
+}

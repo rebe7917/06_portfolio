@@ -1,93 +1,85 @@
-
-video{
-   width: 100%;
+video {
+  width: 100%;
   height: auto;
 }
-#section_1 a:hover {
-  color: black
-}
-#section_3 a:hover {
-  color: black
-}
+
 #section_2 .grid_container,
-#section_4 .grid_container{
-  border: #7E7972 2px solid;
-  padding: 10px;
+#section_4 .grid_container {
+    border: #7E7972 3px solid;
+    border-radius: 30px ;
+    padding: 30px;
 }
+
 @media (min-width: 1000px) {
-#section_2 .grid_container{
+  #section_2 .grid_container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
     text-align: justify;
-    border: #7E7972 5px solid;
-    padding: 50px;
   }
 
-video{
-   /*padding-right: 60px;*/
-  height: auto;
-  padding-top: 50px;
-}
-.pilot{
-    /*padding-left: 60px;*/
-}
+  video {
+    /*padding-right: 60px;*/
+    height: auto;
+    padding-top: 50px;
+  }
+  
 }
 
 /*--------link til pilot projekt-------------*/
-.pilot_p{
-    display: flex;
+.pilot_p {
+  display: flex;
   justify-content: center;
 }
-.pilot_p a{
-background-color: #5E544C;
+.pilot_p a {
+  background-color: #5e544c;
   padding: 10px;
   text-decoration: none;
   color: white;
-  font-size: clamp(1.5rem, 3vw, 1.5rem);
+  font-size: clamp(1.1rem, 3vw, 1.5rem);
+  border-radius: 30px;
+  width: 200px;
+  text-align: center;
 }
 /*-------------------------------------------*/
 
 /*---------------------link til redseign-----------------*/
-.net_redesign{
-    display: flex;
+.net_redesign {
+  display: flex;
   justify-content: center;
 }
-.net_redesign a{
-background-color: #5E544C;
+.net_redesign a {
+  background-color: #5e544c;
   padding: 10px;
   text-decoration: none;
   color: white;
-  font-size: clamp(1.5rem, 3vw, 1.5rem);
+  font-size: clamp(1.1rem, 3vw, 1.5rem);
+  border-radius: 30px;
+  width: 200px;
+  text-align: center;
 }
 /*--------------------------------------------------------*/
 
-/*----------------------------- redesign grid --------------------------------*/ 
+/*----------------------------- redesign grid --------------------------------*/
 @media (min-width: 1000px) {
-#section_4 .grid_container{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
-   text-align: justify;
+  #section_4 .grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: justify;
     gap: 20px;
     justify-items: center;
-    border: #7E7972 5px solid;
-     padding: 40px;
-     border-radius: 25px;
-
-}
-.redesign{
-  grid-column:1/2 ;
-  
-}
-.book{
-  grid-column:2/3 ;
-  
-  width: 80%;
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-
+    padding: 40px;
+    border-radius: 30px;
+  }
+  .redesign {
+    grid-column: 1/2;
+  }
+  .book {
+    grid-column: 2/3;
+    width: 80%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
 }
 /*----------------dokumentations links -----------------------*/
 #section_5 .grid_container {
@@ -98,84 +90,19 @@ background-color: #5E544C;
   place-content: center;
 }
 
+#section_5 a:hover{
+  color: #c7b2a2;
+}
 #section_5 a {
   text-decoration: none;
   color: white;
-  font-size: 1.3rem;
+  font-size: clamp(1.1rem, 3vw, 1.3rem);
 }
-#section_5 a:hover {
-  color: black
-}
-.doku_link1 {
-  background-color: #5E544C;
-  padding: 10px;
-  text-decoration: none;
-  width: 180px;
-  text-align: center;
-}
-.doku_link2 {
-  background-color: #5E544C;
-  padding: 10px;
-  text-decoration: none;
-  width: 180px;
-  text-align: center;
+a:hover{
+  color: #c7b2a2;
 }
 
-.doku_link3 {
-  background-color: #5E544C;
-  padding: 10px;
-  text-decoration: none;
-  width: 180px;
-  text-align: center;
-}
 
-.doku_link4 {
-  background-color: #5E544C;
-  padding: 10px;
-  text-decoration: none;
-  width: 180px;
-  text-align: center;
-}
-
-.doku_link5 {
-  background-color: #5E544C;
-  padding: 10px;
-  text-decoration: none;
-  width: 180px;
-  text-align: center;
-}
-
-.doku_link6 {
-  background-color: #5E544C;
-  padding: 10px;
-  text-decoration: none;
-  width: 180px;
-  text-align: center;
-}
-
-.doku_link7 {
-  background-color: #5E544C;
-  padding: 10px;
-  text-decoration: none;
-  width: 180px;
-  text-align: center;
-}
-
-.doku_link8 {
-  background-color: #5E544C;
-  padding: 10px;
-  text-decoration: none;
-  width: 180px;
-  text-align: center;
-}
-
-.doku_link9 {
-  background-color: #5E544C;
-  padding: 10px;
-  text-decoration: none;
-  width: 180px;
-  text-align: center;
-}
 
 @media (min-width: 700px) {
   #section_5 .grid_container {
@@ -190,11 +117,10 @@ background-color: #5E544C;
     color: white;
     font-size: 1.5rem;
   }
-   .doku_link1 {
+  .doku_link1 {
     grid-column: 1/2;
     grid-row: 1/2;
     width: 200px;
-    
   }
   .doku_link2 {
     grid-column: 2/3;
@@ -239,4 +165,3 @@ background-color: #5E544C;
   }
 }
 /*------------------------------------------*/
-

@@ -8,12 +8,21 @@
   padding: 10px;
   text-decoration: none;
   color: white;
-  font-size: clamp(1.1rem, 3vw, 1.5rem);
+  font-size: clamp(1.1rem, 3vw, 1.3rem);
+  min-width: 200px;
+  text-align: center;
 }
 a:hover {
   color: #c7b2a2;
 }
-
+ img {
+  border-radius: 30px;
+}
+#section_1 .grid_container{
+   border: #7E7972 3px solid;
+    border-radius: 25px ;
+    padding: 30px;
+}
 /*-----------------------section 1---------------------*/
 @media (min-width: 1000px) {
   #section_1 .grid_container {
@@ -23,20 +32,12 @@ a:hover {
     text-align: justify;
     gap: 20px;
     justify-items: center;
-    border: #7E7972 5px solid;
     padding: 40px;
-    border-radius: 25px ;
   }
   .design_doku {
-    padding-top: 40px;
+    padding-top: 50px;
     width: 80%;
     
-  }
- 
-  }
-  .site_v2 {
-    display: flex;
-    justify-content: center;
   }
   
 }
@@ -51,80 +52,10 @@ a:hover {
 #section_2 a {
   text-decoration: none;
   color: white;
-  font-size: 1.3rem;
-  
+  font-size: clamp(1.1rem, 3vw, 1.3rem);
 }
-.doku_link1 {
-  background-color: #5E544C;
-  padding: 10px;
-  border-radius: 25px;
-  width: 180px;
-  text-align: center;
-}
-.doku_link2 {
-  background-color: #5E544C;
-  padding: 10px;
-  border-radius: 25px;
-  width: 180px;
-  text-align: center;
-}
-
-.doku_link3 {
-  background-color: #5E544C;
-  padding: 10px;
- border-radius: 25px;
-  width: 180px;
-  text-align: center;
-}
-
-.doku_link4 {
-  background-color: #5E544C;
-  padding: 10px;
-border-radius: 25px;
-  width: 180px;
-  text-align: center;
-}
-
-.doku_link5 {
-  background-color: #5E544C;
-  padding: 10px;
- border-radius: 25px;
-  width: 180px;
-  text-align: center;
-}
-
-.doku_link6 {
-  background-color: #5E544C;
-  padding: 10px;
-border-radius: 25px;
-  width: 180px;
-  text-align: center;
-}
-
-.doku_link7 {
-  background-color: #5E544C;
-  padding: 10px;
- border-radius: 25px;
-  width: 180px;
-  text-align: center;
-}
-
-.doku_link8 {
-  background-color: #5E544C;
-  padding: 10px;
-  
-  width: 180px;
-  text-align: center;
-  border-radius: 25px;
-}
-
-.doku_link9 {
-  background-color: #5E544C;
-  padding: 10px;
- 
-  width: 180px;
-  text-align: center;
-  border-radius: 25px;
+#section_2 a:hover{
+  color: #c7b2a2;
 }
 
 @media (min-width: 700px) {
