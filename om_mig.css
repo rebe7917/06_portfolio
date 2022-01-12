@@ -1,7 +1,4 @@
-li{
-    list-style:none;
-    font-family: 'Frank Ruhl Libre', serif;
-}
+
 .cv_o{
 text-align: start;
 }
@@ -14,9 +11,7 @@ text-align: start;
     justify-items: center;
    
  }
- .info_mig{
-    
- }
+ 
  .foto_mig{
 
      width: 80%;
@@ -26,14 +21,7 @@ text-align: start;
  img {
   border-radius: 25%;
 }
-/*@media (min-width: 800px) {
-     .foto_mig{
 
-     width: 50%;
-     height: auto;
-     
- }
-}*/
 @media (min-width: 1000px) {
  #section_1 .grid_container{
      display:grid;
@@ -48,7 +36,7 @@ text-align: start;
     
  }
  .foto_mig{
-     padding-top: 50;
+     padding-top: 40px;
  
  }
  .info_mig{

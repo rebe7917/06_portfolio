@@ -1,20 +1,17 @@
-.mapper,
-.mappe_f {
-    display: grid;
+
+
+.mapper{
+  display: grid;
     gap: 50px;
     place-content: center;
     padding-top: 50px;
-    
-    
 }
-
 .mappe{
 background-color:#5E544C ;
 padding:10px;
 text-decoration: none;
 width: 300px;
 text-align: center;
-align-items: center;
 border-radius: 25px ;
   
 }
@@ -23,53 +20,15 @@ border-radius: 25px ;
   color: white;
   font-size:1.5rem;
  }
-.mappe_f a{
-  text-decoration: none;
-  color: white;
-  font-size:1.5rem;
-}
-.mappe_f{
-  padding-bottom: 50px;
-}
- 
+
 @media (min-width: 1000px) {
  .mapper{ 
-   display: flex;
-   /*grid-template-columns: 1fr 1fr 1fr;*/
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     padding-top: 50px;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 140px;
 }
-.mappe_f{
-display: flex;
-gap: 50px;
-justify-content: center;
-padding-bottom: 200px;
-}
-
-/*.mapper a{
-  align-items: center;
- }
-.mappe1{
-grid-column: 1/2;
-grid-row: 1/2;
-}
-.mappe2{
-grid-column:2/3 ;
-grid-row:1/2 ;
-}
-.mappe3{
-grid-column: 1/2;
-grid-row:2/3 ;
-}
-.mappe4{
-grid-column: 2/3;
-grid-row:2/3 ;
-}
-.mappe5{
-grid-column:1/2 ;
-grid-row:3/4 ;
-}*/
 
 }
