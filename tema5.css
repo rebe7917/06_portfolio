@@ -69,7 +69,7 @@ video {
     gap: 20px;
     justify-items: center;
     padding: 40px;
-    border-radius: 30px;
+   gap: 30px;
   }
   .redesign {
     grid-column: 1/2;

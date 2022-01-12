@@ -31,6 +31,7 @@ main{
   color: #5E544C;
   text-decoration: none;
 }
+
 /*------------------------------------Logo slut ----------------------------------------*/
 /*------------------------------------Menu----------------------------------------*/
 /* header */
@@ -67,12 +68,11 @@ nav ul {
     background: transparent;
     border: none;
     display: block;
-    min-width: 44px;
-    min-height: 44px;
     font-size: 1.5rem;
     cursor: pointer;
     color: #5E544C;
   }
+ 
   /*----- menu fjernes-------------*/
   nav {
     display: none;
@@ -98,6 +98,9 @@ nav ul {
     display: flex;
     align-items: center;
   }
+}
+.logobox img {
+  width: clamp(20px, 100%, 40px);
 }
 /*------------------------------------Menu slut----------------------------------------*/
 /*------------------------------------Footer----------------------------------------*/
@@ -139,8 +142,8 @@ footer li{
 
 .f_p{
   color: #5E544C;
-  font-size: 1.1rem;
-  font-family: 'Nunito Sans', sans-serif;
+  font-size: clamp(1rem, 3vw, 1.1rem);
+ font-family: 'Frank Ruhl Libre', serif;
 }
 /*------------------------------------Footer slut----------------------------------------*/
 /*------------------------------------Overskrifter----------------------------------------*/
@@ -171,6 +174,7 @@ h3{
 h4{
   color: #5E544C;
   font-family: 'Frank Ruhl Libre', serif;
+  font-size: 1.1rem;
 
 }
 p{
@@ -213,8 +217,8 @@ font-size: 1.1rem;
 #myBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
+  bottom:110px; /* Place the button at the bottom of the page */
+  right: 8px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
